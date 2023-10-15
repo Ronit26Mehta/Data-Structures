@@ -20,7 +20,7 @@ void main(){
     {
         printf("\t %d",&arr[i]);
     }
-    
+
     index = fibonacci_search(arr,val,n);
     if (index>=0)
 
