@@ -18,18 +18,18 @@ void main(){
     printf("\nthe array to be searched for the value is:");
     for (int i = 0; i < n; i++)
     {
-        printf("\t %d",&arr[i]);
+        printf("\t %d",arr[i]);
     }
 
     index = fibonacci_search(arr,val,n);
     if (index>=0)
 
     {
-        printf("\nthe element was found at %d index.",index);
+        printf("\nthe value %d was found at %d index.",val,index);
     }
     else
     {
-        printf("\nthe element was mot found");
+        printf("\nthe value %d was not found",val);
     }
 }
 int min(int x,int y){
