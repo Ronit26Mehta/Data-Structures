@@ -24,6 +24,9 @@ void main(){
         case 3:
         search();
         break;
+        case 4:
+        printf("\nExiting...");
+        break;
         default:
         printf("\nInvalid Choice!!!");
         break;
