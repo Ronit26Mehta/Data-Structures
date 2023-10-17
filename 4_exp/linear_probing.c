@@ -10,6 +10,7 @@ void main(){
     int choice;
     printf("Ronit Satish Mehta 60009230207\n");
     do{
+     printf("\n\t\t\t HASH ALLOCATION \n");
      printf("\nEnter the choice for operations:\n");
      printf("\n1.insert\n2.display\n3.search\n4.exit");
      scanf("%d",&choice);
