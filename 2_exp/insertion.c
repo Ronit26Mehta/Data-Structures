@@ -1,4 +1,5 @@
 #include<stdio.h>
+int insertionsort(int a[], int n);
 int main() {
     int a[100];
     int n;
@@ -11,11 +12,18 @@ int main() {
     for(i=0;i < n;i++){
         scanf("%d", &a[i]);
     }
+    printf("before sorting:\n");
     for( int k=0;k<n;k++){
-        printf("\n");
+        printf("\t");
         printf("%d",a[k]);
     }
+    printf("\niterations:");
     insertionsort(a,n);
+    printf("\nafter sorting:\n");
+    for( int k=0;k<n;k++){
+        printf("\t");
+        printf("%d",a[k]);
+    }
 }
 int insertionsort(int a[], int n){
     for(int i=1;i<n;i++){
@@ -27,12 +35,11 @@ int insertionsort(int a[], int n){
 
         }
         a[j+1]=t;
-    }
-    printf("elments after insertion sort");
-    for( int k=0;k<n;k++){
-        
         printf("\n");
+        for( int k=0;k<n;k++){   
+        printf("\t");
         printf("%d",a[k]);
+    }
     }
 
 }
