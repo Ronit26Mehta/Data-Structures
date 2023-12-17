@@ -11,7 +11,6 @@ void main(){
     int choice,val;
     do
     {
-        printf("\nRonit Satish Mehta 6009230207\n");
         printf("\n\t\t--------CIRCULAR QUEUE OPERATIONS-------\n");
         printf("\n1.Insert\n2.delete\n3.peekn4.display\n5.exit\n");
         printf("\nEnter Suitable choice for operations:\n");
