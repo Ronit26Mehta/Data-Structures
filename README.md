@@ -1,6 +1,6 @@
-Certainly! Here's the entire content in a single README file:
 
-```markdown
+
+
 # Data Structures Coursework Repository
 
 Welcome to the Data Structures Coursework repository! Whether you're a student enrolled in a data structures course or a self-learner eager to deepen your understanding, this repository is your comprehensive companion for mastering data structures.
